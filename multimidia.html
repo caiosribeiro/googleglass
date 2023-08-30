@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Tudo sobre Google Glass</title>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <link rel="stylesheet" href="_css/media.css"/>
+</head>
+<script language="JavaScript" src="_javascript/funcoes.js"></script>
+<body >
+<div id="interface">
+    <header id="cabecalho">
+        <h1>Google Glass</h1>
+        <h2>A revolução do Google está chegando</h2>
+    </header>
+    <img id="icone" src="_imagens/multimidia.png">
+    <nav id="menu" onmouseout="mudaFoto('_imagens/multimidia.png')">
+        <h1>Menu Principal</h1>
+        <ul type="disc">
+            <li onmouseover="mudaFoto('_imagens/home.png')"><a href="index.html">Home</a></li>
+            <li onmouseover="mudaFoto('_imagens/especificacoes.png')"><a href="specs.html">Especificações</a></li>
+            <li onmouseover="mudaFoto('_imagens/fotos.png')"><a href="fotos.html">Fotos</a></li>
+            <li onmouseover="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+            <li onmouseover="mudaFoto('_imagens/contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+        </ul>
+    </nav>
+
+    <section id="corpo-full">
+        <article id="noticia-principal">
+            <header id="cabecalho-artigo">
+                <h3>Glass > Fotos</h3>
+                <h1>Galeria de Imagens do Google Glass</h1>
+                <h2>por Caio Ribeiro</h2>
+                <h3 class="direita">Atualizado em 01/06/2019</h3>
+            </header>
+
+
+            <div id="tv-radio">
+                <audio id="musica" controls="controls">
+                    <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+                    <source src="_media/07%20Lovers'%20Carvings.m4a" type="audio/x-aac">
+                    <source src="_media/2009-lovers-carvings-bibio.oggvorbis.ogg" type="audio/oog">
+                    Desculpe, mas não foi possível carregar o áudio.
+                </audio>
+                <video id="filme" controls="controls" poster="_imagens/video-mini03.jpg">
+                    <source src="_media/getting-started.mp4" type="video/mp4"/>
+                    <source src="_media/getting-started.webmsd.webm" type="video/webm"/>
+                    <source src="_media/getting-started.oggvorbis.ogg" type="video/ogg"/>
+                    Desculpe, mas não foi possível carregar o vídeo.
+                </video>
+            </div>
+
+        </article>
+    </section>
+
+    <footer id="rodape">
+        <p>Copyright &copy; 2013 - by Caio Ribeiro </br>
+            <a href="http://caiosribeiro.netlify.app" target="_blank">Portifólio</a> |
+            <a href="https://www.linkedin.com/in/caio-ribeiro-b39551221/"target="_blank">Linkedin</a></p>
+    </footer>
+</div>
+</body>
+</html>
