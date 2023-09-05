@@ -92,3 +92,7 @@ ul#album-fotos li#foto06:hover {
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
+
+header#cabecalho{
+    margin-top: 4.1%;
+}
