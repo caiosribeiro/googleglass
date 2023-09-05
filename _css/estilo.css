@@ -228,7 +228,7 @@ footer#rodape p {
     #mudarBotao{
         position: absolute;
         left: 80%;
-        bottom: 100%;
+        bottom: 0%;
     }
 
     nav#menu li{
