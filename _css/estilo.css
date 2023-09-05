@@ -217,7 +217,73 @@ footer#rodape p {
     list-style: none;
     text-transform: uppercase;
     position: absolute;
-    top: -20px;
     left: 12%;
+    top: 2%;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    #mudarBotao{
+        position: absolute;
+        left: 80%;
+        bottom: 700%;
+    }
+
+    nav#menu li{
+        border: 1px solid blue;
+        margin-top: 2%;
+        margin-right: 5%;
+
+    }
+
+    nav#menu ul{
+        height: 40px;
+        margin-top: 3%;
+    }
+}
+
+
+@media only screen and (max-width: 742px){
+
+    button#mudarBotao{
+        position: absolute;
+        left: 80%;
+        bottom: 800%;
+    }
+
+    div#interface{
+        width: 100%;
+    }
+
+    div.interface{
+        width: 100%;
+    }
+
+    section#corpo{
+        padding: 5px;
+        width: 100%;
+    }
+
+    aside#lateral{
+        float: left;
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+
+    nav#menu ul{
+        font-size: 15px;
+        padding: 0px;
+        left: 0;
+    }
+
+    img#icone {
+        position: absolute;
+        left: 50%;
+        top: 50px;
+    }
+
+    body{
+        font-size: 22px;
     }
 }
