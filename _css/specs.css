@@ -16,3 +16,7 @@ iframe#frame-spec {
 iframe#frame-spec::-webkit-scrollbar {
     display: none;
 }
+
+header#cabecalho{
+    margin-top: 4.1%;
+}
