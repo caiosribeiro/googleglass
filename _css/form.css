@@ -40,3 +40,7 @@ fieldset#mensagem {
 fieldset#pedido {
     background: url("../_imagens/icone-pagamento.png") no-repeat 95% 95%;
 }
+
+header#cabecalho{
+    margin-top: 4.1%;
+}
