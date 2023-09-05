@@ -24,18 +24,21 @@
         <h2>A revolução do Google está chegando</h2>
     </header>
     <img id="icone" src="_imagens/contato.png">
-    <nav id="menu" onmouseout="mudaFoto('_imagens/contato.png')">
-        <h1>Menu Principal</h1>
-        <ul type="disc">
-            <li onmouseover="mudaFoto('_imagens/home.png')"><a href="index.html">Home</a></li>
-            <li onmouseover="mudaFoto('_imagens/especificacoes.png')"><a href="specs.html">Especificações</a></li>
-            <li onmouseover="mudaFoto('_imagens/fotos.png')"><a href="fotos.html">Fotos</a></li>
-            <li onmouseover="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
-            <li onmouseover="mudaFoto('_imagens/contato.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+    <nav class="navbar nav navbar-expand-lg" id="menu" onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')">
+    <h1>Menu Principal</h1>
+    <button id="mudarBotao" class="navbar-toggler border border-black m-3" type="button" data-bs-toggle="offcanvas" data-bs-target=".botao-links" aria-controls="botao-links">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class=" navbar nav offcanvas offcanvas-top botao-links text-bg-dark fw-semibold " data-bs-scroll = 'true' tabindex="-1">
+        <ul class="nav navbar navbar-nav">
+            <li class="nav-item" onmouseover="mudaFoto('_imagens/home.png')"><a aria-current="page" href="index.html">Home</a></li>
+            <li class="nav-item" onmouseover="mudaFoto('_imagens/especificacoes.png')"><a href="specs.html">Especificações</a></li>
+            <li class="nav-item" onmouseover="mudaFoto('_imagens/fotos.png')"><a href="fotos.html">Fotos</a></li>
+            <li class="nav-item" onmouseover="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+            <li class="nav-item" onmouseover="mudaFoto('_imagens/contato.png')"><a href="fale-conosco.html" aria-disabled="true">Fale conosco</a></li>
         </ul>
-    </nav>
-
-
+    </div>
+</nav>
 
     <form method="post" id="fContato" action="mailto:contato@cursoemvideo.com" autocomplete="on" oninput="calc_total();">
         <fieldset id="usuario"><legend>Identificação do Usuário</legend>
