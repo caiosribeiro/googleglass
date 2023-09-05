@@ -4,6 +4,7 @@
     font-family: 'FonteLogo';
     src: url("../_fonts/bubblegum-sans-regular.otf");
 }
+
 body {
     font-family: Arial,sans-serif;
     background-color: #dddddd;
@@ -129,7 +130,7 @@ article#noticia-principal h2{
     margin: 10px 0px 10px 0px;
 }
 header#cabecalho-artigo h1 {
-font-family: 'fonte-logo', sans-serif;
+    font-family: 'fonte-logo', sans-serif;
     font-size: 20pt;
     color: #606060;
     margin-bottom: 0px;
