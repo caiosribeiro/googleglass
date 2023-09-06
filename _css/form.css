@@ -56,6 +56,10 @@ header#cabecalho{
     }
 
     .ajuste{
+        margin-left: -20%;
+    }
+
+    .ajuste1{
         margin-left: -10%;
     }
 }
