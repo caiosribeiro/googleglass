@@ -35,7 +35,8 @@ header#cabecalho{
         margin-top: 10%;
         margin-left: -10%;
         background: url("../_imagens/radio-tv-novo.png") no-repeat;
-        padding-right: 0;
+        width: 445px;
+        height: 300px;
     }
 
     video#filme{
