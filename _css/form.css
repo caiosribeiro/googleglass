@@ -54,4 +54,8 @@ header#cabecalho{
     fieldset#usuario, fieldset#endereco, fieldset#mensagem, fieldset#pedido{
         background-position: center;
     }
+
+    textarea{
+        width: 70%;
+    }
 }
