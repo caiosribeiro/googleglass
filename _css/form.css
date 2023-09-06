@@ -30,15 +30,19 @@ fieldset#sexo {
 }
 fieldset#usuario {
     background: url("../_imagens/icone-contato.png") no-repeat 95% 95%;
+    background-position: left;
 }
 fieldset#endereco {
     background: url("../_imagens/icone-endereco.png") no-repeat 95px 95px;
+    background-position: left;
 }
 fieldset#mensagem {
     background: url("../_imagens/icone-mensagem.png") no-repeat 95% 95%;
+    background-position: left;
 }
 fieldset#pedido {
     background: url("../_imagens/icone-pagamento.png") no-repeat 95% 95%;
+    background-position: left;
 }
 
 header#cabecalho{
@@ -47,13 +51,7 @@ header#cabecalho{
 
 @media only screen and (max-width: 742px){
 
-    fieldset#usuario{
-        position: relative;
-        right: 50px;
+    fieldset#usuario, fieldset#endereco, fieldset#mensagem, fieldset#pedido{
+        background-position: center;
     }
-
-    fieldset#mensagem{
-        
-    }
-
 }
