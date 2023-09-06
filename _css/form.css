@@ -49,7 +49,7 @@ header#cabecalho{
 
     fieldset#usuario{
         position: relative;
-        right: 10%;
+        right: 50px;
     }
 
     fieldset#mensagem{
