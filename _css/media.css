@@ -34,7 +34,7 @@ header#cabecalho{
     video#filme{
         position: relative;
         left: 40px;
-        top: 30px;
-        width: 300px;
+        top: 10px;
+        width: 280px;
     }
 }
