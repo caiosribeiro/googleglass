@@ -282,7 +282,8 @@ footer#rodape p {
     }
 
     nav#menu li{
-    padding: 5px;  
+    padding: 5px;
+    margin-top: 2px;  
     }
 
     img#icone {
