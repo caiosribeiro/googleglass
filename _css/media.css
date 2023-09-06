@@ -27,6 +27,7 @@ header#cabecalho{
 
 @media only screen and (max-width: 742px){
     div#tv-radio{
+        margin-top: 10%;
         margin-left: -10%;
         background: url("../_imagens/radio-tv-novo.png") no-repeat;
     }
@@ -36,5 +37,10 @@ header#cabecalho{
         left: 40px;
         top: 10px;
         width: 280px;
+    }
+
+    audio#musica{
+        position: relative;
+        left: 100px;
     }
 }
