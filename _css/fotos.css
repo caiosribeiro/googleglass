@@ -100,5 +100,6 @@ header#cabecalho{
 @media only screen and (max-width: 742px){
     ul#album-fotos{
         margin-left: -15%;
+        width: 90%;
     }
 }
