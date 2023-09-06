@@ -24,3 +24,9 @@ video#filme {
 header#cabecalho{
     margin-top: 4.1%;
 }
+
+@media only screen and (max-width: 742px){
+    div#tv-radio{
+        width: 50%;
+    }
+}
