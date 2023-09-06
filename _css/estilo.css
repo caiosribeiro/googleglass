@@ -281,6 +281,10 @@ footer#rodape p {
         left: 0;
     }
 
+    nav#menu li{
+    padding: 5px;  
+    }
+
     img#icone {
         position: absolute;
         left: 50%;
