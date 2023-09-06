@@ -20,3 +20,9 @@ iframe#frame-spec::-webkit-scrollbar {
 header#cabecalho{
     margin-top: 4.1%;
 }
+
+@media only screen and (max-width: 742px){
+    img#oculos{
+        width: 100%;
+    }
+}
