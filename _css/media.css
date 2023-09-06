@@ -43,14 +43,15 @@ header#cabecalho{
         position: relative;
         left: 40px;
         top: 20px;
-        width: 228px;
+        width: 220px;
+        height: 100px;
     }
 
     audio#musica{
         position: relative;
-        width: 150px;
-        left: 283px;
-        top: 240px;
+        width: 140px;
+        left: 276px;
+        top: 230px;
         height: 30px;
     }
 }
