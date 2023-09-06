@@ -251,6 +251,10 @@ footer#rodape p {
         bottom: 700%;
     }
 
+    img#icone{
+        width: 30%;
+    }
+
     div#interface{
         width: 100%;
     }
