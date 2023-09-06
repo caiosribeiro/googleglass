@@ -59,12 +59,16 @@ header#cabecalho{
         background-position: center;
     }
 
+    form{
+        width: 450px;
+    }
+
     .ajuste{
         margin-left: -20%;
     }
 
     .ajuste1{
-        margin-left: -5%;
+        margin-left: -7%;
     }
 
 }
