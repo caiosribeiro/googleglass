@@ -60,7 +60,7 @@ header#cabecalho{
     }
 
     form{
-        width: 450px;
+        width: 420px;
     }
 
     .ajuste{
@@ -68,7 +68,11 @@ header#cabecalho{
     }
 
     .ajuste1{
-        margin-left: -7%;
+        margin-left: -9%;
+    }
+
+    .ajuste2{
+        margin-left: -25%;
     }
 
 }
