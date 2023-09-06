@@ -42,16 +42,16 @@ header#cabecalho{
     video#filme{
         position: relative;
         left: 40px;
-        top: 25px;
-        width: 210px;
+        top: 27px;
+        width: 200px;
         height: 100px;
     }
 
     audio#musica{
         position: relative;
         width: 140px;
-        left: 270px;
-        top: 220px;
+        left: 250px;
+        top: 200px;
         height: 30px;
     }
 }
