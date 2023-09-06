@@ -27,7 +27,7 @@ header#cabecalho{
 
 @media only screen and (max-width: 742px){
     div#tv-radio{
-        width: 70%;
+        width: 700px;
         margin-left: -10%;
     }
 }
