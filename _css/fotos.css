@@ -96,3 +96,10 @@ ul#album-fotos li#foto06:hover {
 header#cabecalho{
     margin-top: 4.1%;
 }
+
+@media only screen and (max-width: 742px){
+    #album-fotos{
+        position: relative;
+        right: 5%;
+    }
+}
