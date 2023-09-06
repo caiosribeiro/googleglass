@@ -42,8 +42,8 @@ header#cabecalho{
     audio#musica{
         position: relative;
         width: 150px;
-        left: 285px;
-        top: 240px;
+        left: 295px;
+        top: 245px;
         height: 30px;
     }
 }
