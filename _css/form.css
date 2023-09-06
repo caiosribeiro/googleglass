@@ -51,10 +51,6 @@ header#cabecalho{
 
 @media only screen and (max-width: 742px){
 
-    *{
-        border: 1px solid blue;
-    }
-
     fieldset#usuario, fieldset#endereco, fieldset#mensagem, fieldset#pedido{
         background-position: center;
     }
@@ -68,7 +64,7 @@ header#cabecalho{
     }
 
     .ajuste1{
-        margin-left: -10%;
+        margin-left: -9.5%;
     }
 
     .ajuste2{
@@ -76,7 +72,7 @@ header#cabecalho{
     }
 
     .ajuste3{
-        margin-left: -5%;
+        margin-left: -7%;
     }
 
 }
