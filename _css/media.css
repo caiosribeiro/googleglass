@@ -28,7 +28,7 @@ header#cabecalho{
 @media only screen and (max-width: 742px){
     div#tv-radio{
         margin-left: -10%;
-        background: url("../_imagens/radio-tv-novo-1.png") no-repeat;
+        background: url("../_imagens/radio-tv-novo.png") no-repeat;
     }
 
     video#filme{
