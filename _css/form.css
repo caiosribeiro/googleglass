@@ -49,6 +49,10 @@ header#cabecalho{
     margin-top: 4.1%;
 }
 
+.ajuste2{
+    margin-left: -20%;
+}
+
 @media only screen and (max-width: 742px){
 
     fieldset#usuario, fieldset#endereco, fieldset#mensagem, fieldset#pedido{
