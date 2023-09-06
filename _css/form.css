@@ -44,3 +44,16 @@ fieldset#pedido {
 header#cabecalho{
     margin-top: 4.1%;
 }
+
+@media only screen and (max-width: 742px){
+
+    fieldset#usuario{
+        position: relative;
+        right: 10%;
+    }
+
+    fieldset#mensagem{
+        
+    }
+
+}
