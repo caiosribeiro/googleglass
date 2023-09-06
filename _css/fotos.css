@@ -98,7 +98,7 @@ header#cabecalho{
 }
 
 @media only screen and (max-width: 742px){
-    #album-fotos{
-        margin-left: -5%;
+    ul#album-fotos{
+        margin-left: -15%;
     }
 }
