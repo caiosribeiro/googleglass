@@ -55,7 +55,7 @@ header#cabecalho{
         background-position: center;
     }
 
-    #ajuste{
+    .ajuste{
         margin-left: -10%;
     }
 }
