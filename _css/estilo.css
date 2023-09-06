@@ -232,12 +232,11 @@ footer#rodape p {
     }
 
     nav#menu li{
-        border: 1px solid blue;
         margin-top: 2%;
     }
 
     nav#menu ul{
-        margin-left: 35%;
+        margin-left: 30%;
     }
 }
 
