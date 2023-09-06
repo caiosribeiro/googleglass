@@ -33,9 +33,9 @@ header#cabecalho{
 
     div#tv-radio{
         margin-top: 10%;
-        margin-left: -10%;
+        margin-left: -8%;
         background: url("../_imagens/radio-tv-novo.png") no-repeat;
-        width: 445px;
+        width: 400px;
         height: 300px;
     }
 
