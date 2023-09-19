@@ -1,53 +1,155 @@
 @charset "UTF-8";
 
 div#tv-radio {
-    width: 900px;
+    width: 100%;
     height: 580px;
     margin: auto;
     background: url("../_imagens/radio-tv.png") no-repeat;
+    background-size: 100% 100%;
 }
 audio#musica {
     display: block;
     position: relative;
-    left: 575px;
-    top: 490px;
-    width: 300px;
+    left: 63%;
+    top: 46%;
+    width: 34.5%;
+    height: 30px;
 }
 video#filme {
     display: block;
     position: relative;
-    left: 90px;
-    top: 60px;
-    width: 440px;
+    left: 10%;
+    top: 20%;
+    width: 50%;
 }
 
 header#cabecalho{
     margin-top: 4.1%;
 }
 
-@media only screen and (max-width: 742px){
+@media only screen and (max-width:1196px){
+    audio#musica{
+        top: 50%;
+    }   
+}
+
+@media only screen and (max-width:1076px){
+    audio#musica{
+        top: 54%;
+    }
+
+    video#filme{
+        top: 24%;
+    }
+}
+
+@media only screen and (max-width:948px){
+    audio#musica{
+        top: 58%;
+    }
+
+    video#filme{
+        top: 28%;
+    }
+}
+
+@media only screen and (max-width:828px){
+    audio#musica{
+        top: 62%;
+    }
+
+    video#filme{
+        top: 30%;
+    }
+}
+
+@media only screen and (max-width:742px){
+    audio#musica{
+        top: 55%;
+    }
+
+    video#filme{
+        top: 25%;
+    }
+}
+
+@media only screen and (max-width:648px){
+    audio#musica{
+        top: 59%;
+    }
+
+    video#filme{
+        top: 27%;
+    }
+}
+
+@media only screen and (max-width:570px){
+    audio#musica{
+        top: 63%;
+    }
+
+    video#filme{
+        top: 31%;
+    }
+
+}
+
+@media only screen and (max-width:500px){
+    div#tv-radio{
+        height: 450px;
+    }
+
+    audio#musica{
+        top: 62%;
+        height: 20px;
+    }
+    video#filme{
+        top: 26%;
+           
+    }
+}
+
+@media only screen and (max-width:404px){
+    audio#musica{
+        height: 13px;
+        top: 55%;
+    }
 
     div#tv-radio{
-        margin-top: 10%;
-        margin-left: -2%;
-        background: url("../_imagens/radio-tv-novo.png") no-repeat;
-        width: 400px;
         height: 300px;
     }
 
     video#filme{
-        position: relative;
-        left: 37px;
-        top: 27px;
-        width: 200px;
-        height: 100px;
+        top: 24%;
+    }
+}
+
+@media only screen and (max-width:338px){
+    audio#musica{
+        top: 60%;
     }
 
+    video#filme{
+        top: 29%;
+    }
+}
+
+@media only screen and (max-width:308px){
     audio#musica{
-        position: relative;
-        width: 138px;
-        left: 252px;
-        top: 210px;
-        height: 30px;
+        top: 54%;
+    }
+
+    div#tv-radio{
+        height: 250px;
+    }
+
+    video#filme{
+        top: 26%;
+    }
+}
+
+@media only screen and (max-width:300px){
+    audio#musica{
+        top: 58%;
     }
 }
