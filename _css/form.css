@@ -49,41 +49,60 @@ header#cabecalho{
     margin-top: 4.1%;
 }
 
-.ajuste2{
-    margin-left: -10%;
-}
-.disponivel{
-    margin-left: 13%;
-}
 
-@media only screen and (max-width: 742px){
-
+@media only screen and (max-width:468px){
     fieldset#usuario, fieldset#endereco, fieldset#mensagem, fieldset#pedido{
+        position: relative;
+        right: 15%;
         background-position: center;
     }
 
-    form{
-        width: 400px;
+    fieldset#sexo{
+        position: relative;
+        left: 15%;
     }
 
-    .ajuste{
+    legend{
+        position: relative;
+        left: 15%;
+    }
+
+    label#nasc{
+        position: relative;
+        left: 10%;
+    }
+
+    label#desc-ped{
+        position: relative;
+        left: 4%;
+    }
+
+    label.ajuste, textarea{
+        position: relative;
+        right: 5%;
+    }
+
+    div#interface{
+        width: 110%;
+    }
+
+    nav#menu ul{
+        position: relative;
+        margin-top: 50%;
         margin-left: -20%;
+        font-size: 12px;
     }
 
-    .ajuste1{
-        margin-left: -8%;
-    }
+}
 
-    .ajuste2{
-        margin-left: -20%;
+@media only screen and (max-width:372px){
+    div#interface{
+        width: 135%;
     }
+}
 
-    .ajuste3{
-        margin-left: -7%;
+@media only screen and (max-width:300px){
+    div#interface{
+        width: 170%;
     }
-
-    .disponivel{
-        margin-left: 14%;
-    }
-
 }
