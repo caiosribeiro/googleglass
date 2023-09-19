@@ -7,10 +7,9 @@ section#conteudo {
 }
 
 iframe#frame-spec {
-    width: 400px;
     height: 280px;
     border: none;
-
+    float: right;
 }
 
 iframe#frame-spec::-webkit-scrollbar {
@@ -21,8 +20,16 @@ header#cabecalho{
     margin-top: 4.1%;
 }
 
+div#interface{
+    width: 70%;
+    background-color: #ffffff;
+    margin:-20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px;
+}
+
 @media only screen and (max-width: 742px){
-    img#oculos{
+    div#interface{
         width: 100%;
     }
 }
