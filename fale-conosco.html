@@ -60,7 +60,7 @@
             <p><label for="cRua">Logradouro: </label><input class="ajuste" id="logradouro" type="text" name="tRua" id="cRua" size="20" maxlength="80" placeholder="Rua, Av, Trav, ..." required/></p>
             <p><label for="cNum">Número:</label><input type="number" name="tNum" class="ajuste" id="cNum" min="0" max="9999" required/></p>
             <p><label for="cEst">Estado:</label>
-            <select class="ajuste" name="tEst" id="cEst">
+            <select class="ajuste ajuste1" name="tEst" id="cEst">
                 <optgroup label="Região Sudeste">
                     <option value="RJ">Rio de Janeiro</option>
                     <option value="SP" selected>São Paulo</option>
@@ -83,7 +83,7 @@
         </fieldset>
         <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
             <label class="urgencia" for="cUrg">Grau de Urgência:</label>
-                <p class="urgencia">Mín<input class="ajuste" type="range" name="tUrg" id="cUrg" min="0" max="10" step="2">Máx</p>
+                <p class="urgencia ajuste">Mín<input type="range" name="tUrg" id="cUrg" min="0" max="10" step="2">Máx</p>
             <p><label class="ajuste" for="cMsg">Mensagem:</label>
             <textarea class="ajuste" name="tMsg" id="Cmsg" cols="35" rows="5" placeholder="Deixe aqui sua mensagem"></textarea></p>
         </fieldset>
