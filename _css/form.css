@@ -72,34 +72,41 @@ header#cabecalho{
         left: 10%;
     }
 
-    label#desc-ped{
+    textarea, #pagar{
         position: relative;
-        left: 4%;
+        left: 20%;
     }
 
-    label.ajuste, textarea{
+    #desc-ped{
         position: relative;
-        right: 5%;
+        left: 15%;
+    }
+    
+    #ajuste{
+        position: relative;
+        left: 5%;
     }
 
-    div#interface{
-        width: 110%;
+    .urgencia{
+        position: relative;
+        left: 15%;
     }
 
     nav#menu ul{
         margin-top: 60%;
     }
-
 }
 
-@media only screen and (max-width:372px){
-    div#interface{
-        width: 135%;
+@media only screen and (max-width:395px){
+    #logradouro{
+        position: relative;
+        left: 40%;
     }
 }
 
-@media only screen and (max-width:300px){
-    div#interface{
-        width: 170%;
+@media only screen and (max-width:365px){
+    input.ajuste{
+        position: relative;
+        left: 15%;
     }
 }
