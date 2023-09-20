@@ -46,20 +46,21 @@
 
     <form method="post" id="fContato" action="mailto:contato@cursoemvideo.com" autocomplete="on" oninput="calc_total();">
         <fieldset id="usuario"><legend>Identificação do Usuário</legend>
-            <p><label class="ajuste" for="cNome">Nome:</label> <input class="ajuste" type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo" required/></p>
-            <p><label class="ajuste" for="cSenha">Senha:</label> <input class="ajuste" type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 Dígitos" required/></p>
-            <p><label class="ajuste" for="cEmail">E-mail:</label> <input class="ajuste" type="email" name="tEmail" id="cEmail" size="20" maxlength="40" required/></p>
-            <p><label class="ajuste" for="cTel">Tel/Cel:</label> <input class="ajuste" type="tel" name="tTel" id="cTel" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="(99) 9999-9999" required></p>
+            <p><label for="cNome">Nome:</label> <input class="ajuste" type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo" required/></p>
+            <p><label for="cSenha">Senha:</label> <input class="ajuste" type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="8 Dígitos" required/></p>
+            <p><label for="cEmail">E-mail:</label> <input class="ajuste" type="email" name="tEmail" id="cEmail" size="20" maxlength="40" required/></p>
+            <p><label for="cTel">Tel/Cel:</label> <input class="ajuste" type="tel" name="tTel" id="cTel" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="(99) 9999-9999" required></p>
             <fieldset id="sexo"><legend>Sexo:</legend>
                 <input type="radio" name="tSexo" id="cMasc" checked/> <label for="cMasc">Masculino</label><br/>
-                <input type="radio" name="tSexo" id="cFem"/> <label for="cFem">Feminino</label></fieldset><label id="nasc">
-            <p>Data de Nascimento:<input type="date" name="tNasc" id="cNasc" required/></p></label></fieldset>
+                <input type="radio" name="tSexo" id="cFem"/> <label for="cFem">Feminino</label></fieldset>
+                <label id="nasc">
+            <p>Data de Nascimento:</label><input class="ajuste" type="date" name="tNasc" id="cNasc" required/></p></fieldset>
 
         <fieldset id="endereco"><legend>Endereço do Usuário</legend>
-            <p><label class="ajuste" for="cRua">Logradouro: </label><input class="ajuste" type="text" name="tRua" id="cRua" size="20" maxlength="80" placeholder="Rua, Av, Trav, ..." required/></p>
-            <p><label class="ajuste" for="cNum">Número:</label><input class="ajuste" type="number" name="tNum" class="campo" id="cNum" min="0" max="9999" required/></p>
-            <p><label class="ajuste" for="cEst">Estado:</label>
-            <select name="tEst" id="cEst">
+            <p><label for="cRua">Logradouro: </label><input class="ajuste" id="logradouro" type="text" name="tRua" id="cRua" size="20" maxlength="80" placeholder="Rua, Av, Trav, ..." required/></p>
+            <p><label for="cNum">Número:</label><input type="number" name="tNum" class="ajuste" id="cNum" min="0" max="9999" required/></p>
+            <p><label for="cEst">Estado:</label>
+            <select class="ajuste" name="tEst" id="cEst">
                 <optgroup label="Região Sudeste">
                     <option value="RJ">Rio de Janeiro</option>
                     <option value="SP" selected>São Paulo</option>
@@ -71,7 +72,7 @@
                     <option value="RS">Rio Grande do Sul</option>
                 </optgroup>
             </select></p>
-            <p><label class="ajuste" for="cCid">Cidade:</label>
+            <p><label for="cCid">Cidade:</label>
             <input class="ajuste" type="text" name="tCid" class="campo" id="cCid" maxlength="40" size="20" placeholder="Sua Cidade" list="cidades">
             <datalist id="cidades">
                 <option value="São Paulo"></option>
@@ -81,24 +82,25 @@
             </datalist>
         </fieldset>
         <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
-            <p><label class="ajuste" for="cUrg">Grau de Urgência:</label>
-                Mín<input class="ajuste" type="range" name="tUrg" id="cUrg" min="0" max="10" step="2">Máx</p>
+            <label class="urgencia" for="cUrg">Grau de Urgência:</label>
+                <p class="urgencia">Mín<input class="ajuste" type="range" name="tUrg" id="cUrg" min="0" max="10" step="2">Máx</p>
             <p><label class="ajuste" for="cMsg">Mensagem:</label>
             <textarea class="ajuste" name="tMsg" id="Cmsg" cols="35" rows="5" placeholder="Deixe aqui sua mensagem"></textarea></p>
         </fieldset>
 
         <fieldset id="pedido"><legend>Quero um Google Glass</legend>
-            <p><input type="checkbox" name="tPed" id="cPed" checked>
-                <label id="desc-ped" for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
-            <p><label class="ajuste" for="cCor">Cor:</label>
-                <input class="ajuste" type="color" name="tCor" id="cCor" value="#0000FF"></p>
-            <p><label class="ajuste" for="cQtd">Quantidade:</label>
-            <input class="ajuste" type="number" name="tQtd" id="cQtd" min="0" max="5" value="0"></p>
-            <p><label class="ajuste" for="cTot">Preço Total: R$</label>
-            <input class="ajuste" type="text" name="tTot campo" id="cTot" placeholder="Total a Pagar" readonly required></p>
+            <p><input id="ajuste" type="checkbox" name="tPed" id="cPed" checked>
+                <label class="ajuste" id="desc-ped" for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
+
+            <p><label for="cCor">Cor:</label>
+                <input type="color" name="tCor" id="cCor" value="#0000FF"></p>
+
+            <p><label for="cQtd">Quantidade:</label>
+            <input type="number" name="tQtd" id="cQtd" min="0" max="5" value="0"></p>
+
+            <p><label for="cTot">Preço Total: R$</label>
+            <input id="pagar" type="text" name="tTot campo" id="cTot" placeholder="Total a Pagar" readonly required></p>
         </fieldset>
-
-
 
         <input type="image" id="cEnviar" src="_imagens/botao-enviar.png">
     </form>
